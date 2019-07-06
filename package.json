@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-platzi",
+  "version": "1.0.1",
+  "description": "Platzi base ESLint config for JS School",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/eslint-config-platzi.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "platzi"
+  ],
+  "author": {
+    "name": "Oscar Barajas",
+    "email": "oscar@platzi.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/eslint-config-platzi/issues"
+  },
+  "homepage": "https://github.com/gndx/eslint-config-platzi#readme",
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "babel-eslint": ">= 10"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
